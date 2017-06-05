@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConditionalOnExpressionA {
 
-  public ConditionalOnExpressionA() {
-    System.out.println("");
-  }
-
   public String getValue() {
     return "ConditionalA";
   }

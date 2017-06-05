@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConditionalOnPropertyB {
 
-  public ConditionalOnPropertyB() {
-    System.out.println("");
-  }
-
   public String getValue() {
     return "ConditionalB";
   }
